@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: $font-family;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    height: 100%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+    @include mq-min($lg) {
+        font-size: 18px;
+    }
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @include mq-max($lg) {
+        height: 100%;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        text-align: center;
+
+        @include mq-min($lg) {
+            flex: 0 0 100%;
+        }
+    }
+}

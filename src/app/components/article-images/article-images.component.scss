@@ -1,0 +1,21 @@
+@import "~src/scss/base";
+
+.article-images-wrapper {
+    &__header-img {
+        width: 250px;
+    }
+
+    &__carousel {
+
+        &__arrow{
+            height: 100%;
+        }
+
+        &__img {
+            width: 150px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

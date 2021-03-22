@@ -1,0 +1,11 @@
+<div class="article-images-wrapper">
+    <img [src]="headerImage.path" class="article-images-wrapper__header-img">
+
+    <div class="article-images-wrapper__carousel">
+        <ap-icon-previous class="article-images-wrapper__carousel__arrow"></ap-icon-previous>
+        <img *ngFor="let image of images" [src]="image.path" class="article-images-wrapper__carousel__img"
+            (click)="headerImage = image">
+        <ap-icon-next></ap-icon-next>
+    </div>
+  
+</div>

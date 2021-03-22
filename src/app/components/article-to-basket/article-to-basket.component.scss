@@ -1,0 +1,8 @@
+@import "~src/scss/base";
+
+.article-to-basket {
+    padding: 1em;
+    &__btn {
+        border: none;
+    }
+}

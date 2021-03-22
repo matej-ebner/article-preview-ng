@@ -1,0 +1,10 @@
+@import "~src/scss/base";
+
+.main-app-wrapper {
+    height: 100%;
+    padding: 2em;
+
+    @include mq-min($lg) {
+        padding: 170px 0 60px 0;
+    }
+}

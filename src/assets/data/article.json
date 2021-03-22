@@ -1,0 +1,103 @@
+{
+    "id": 1,
+    "name": "First article",
+    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "additional_info": [
+        {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },
+        {
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        },
+        {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
+        },
+        {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        {
+            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+        },
+        {
+            "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt"
+        },
+        {
+            "text": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem"
+        }
+    ],
+    "sizes": [
+        {
+            "value": 62
+        },
+        {
+            "value": 78
+        }
+    ],
+    "images": [
+        {
+            "path": "assets/images/62pack/first.jpg",
+            "alt": "first image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/62pack/second.jpg",
+            "alt": "second image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/62pack/third.jpg",
+            "alt": "third image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/62pack/fourth.jpg",
+            "alt": "fourth image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/62pack/fifth.jpg",
+            "alt": "fifth image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/62pack/sixth.jpg",
+            "alt": "sixth image",
+            "size": 62
+        },
+        {
+            "path": "assets/images/78pack/first.jpg",
+            "alt": "first image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/second.jpg",
+            "alt": "second image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/third.jpg",
+            "alt": "third image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/fourth.jpg",
+            "alt": "fourth image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/fifth.jpg",
+            "alt": "fifth image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/sixth.jpg",
+            "alt": "sixth image",
+            "size": 78
+        },
+        {
+            "path": "assets/images/78pack/seventh.jpg",
+            "alt": "seventh image",
+            "size": 78
+        }
+    ]
+}

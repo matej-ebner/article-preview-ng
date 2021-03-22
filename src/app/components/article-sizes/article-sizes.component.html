@@ -1,0 +1,10 @@
+<section class="article-sizes">
+  <form #myForm="ngForm">
+    <label for="size">Size</label>
+    <select name="size" id="size" (change)="selectSize($event.target.value)">
+      <option [ngValue]="articleSize.value" *ngFor="let articleSize of sizes">
+        {{articleSize.value}}
+      </option>
+    </select>
+</form>
+</section>

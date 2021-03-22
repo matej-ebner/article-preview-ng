@@ -1,0 +1,12 @@
+@import "~src/scss/base";
+
+.article-description {
+    padding: 1em;
+    &__name {
+        margin-bottom: 1em;
+    }
+
+    &__short-description {
+        font-size: 1.1em;
+    }
+}
