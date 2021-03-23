@@ -1,4 +1,15 @@
 @import "~src/scss/base";
 
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    @include mq-min($xl) {
+        flex-direction: row;
+    }
+}
 
+.double-section{
+    flex: 1;
+}

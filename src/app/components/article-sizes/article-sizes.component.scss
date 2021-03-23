@@ -3,4 +3,23 @@
 .article-sizes {
     padding: 1em;
 
+    &__form {
+        * {
+            font-size: 1.2em;
+        }
+
+        &__label {
+            font-weight: 700;
+        }
+
+        &__select {
+            margin-left: 0.5em;
+            border: 1px solid $grey;
+            border-radius: $common-border-radius;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
 }

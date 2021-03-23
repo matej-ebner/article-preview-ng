@@ -1,10 +1,15 @@
+<section class="double-section double-section--images-wrapper">
+    <ap-article-images *ngIf="articleImages.length > 0" [images]="articleImages"></ap-article-images>
+</section>
 
-<ap-article-images *ngIf="articleImages.length > 0" [images]="articleImages"></ap-article-images>
+<section class="double-section">
+    <ap-article-description [name]="article.name" [shortDescription]="article.short_description">
+    </ap-article-description>
 
-<ap-article-description [name]="article.name" [shortDescription]="article.short_description"></ap-article-description>
+    <ap-article-sizes [sizes]="article.sizes"></ap-article-sizes>
 
-<ap-article-sizes [sizes]="article.sizes"></ap-article-sizes>
+    <ap-article-to-basket></ap-article-to-basket>
 
-<ap-article-to-basket></ap-article-to-basket>
-
-<ap-article-additional-info *ngIf="article.additional_info" [additionalInfoSet]="article.additional_info"></ap-article-additional-info>
+    <ap-article-additional-info *ngIf="article.additional_info" [additionalInfoSet]="article.additional_info">
+    </ap-article-additional-info>
+</section>

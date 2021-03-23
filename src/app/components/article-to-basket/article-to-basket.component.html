@@ -1,5 +1,5 @@
 <section class="article-to-basket">
-  <button class="info-button" (click)="confirmArticleToBasket = true">Buy Now</button>
+  <button class="info-button article-to-basket__btn" (click)="confirmArticleToBasket = true">Buy Now</button>
 
   <ap-modal *ngIf="confirmArticleToBasket" [questionString]="'Are you sure you want to buy selected article?'"
     [acceptString]="'Yes'" [declineString]="'No'" (actionConfirmed)="toBasketConfirmed()">

@@ -2,10 +2,12 @@
     <img [src]="headerImage.path" class="article-images-wrapper__header-img">
 
     <div class="article-images-wrapper__carousel">
-        <ap-icon-previous class="article-images-wrapper__carousel__arrow"></ap-icon-previous>
-        <img *ngFor="let image of images" [src]="image.path" class="article-images-wrapper__carousel__img"
+        <ap-icon-previous (click)="previousImage()" class="article-images-wrapper__carousel__arrow"></ap-icon-previous>
+        <img *ngFor="let image of caroseulImages" 
+            [src]="image.path"
+            class="article-images-wrapper__carousel__img"
+            [ngClass]="{'article-images-wrapper__carousel__img--featured':image.path === headerImage.path}" 
             (click)="headerImage = image">
-        <ap-icon-next></ap-icon-next>
+        <ap-icon-next (click)="nextImage()" class="article-images-wrapper__carousel__arrow"></ap-icon-next>
     </div>
-  
 </div>

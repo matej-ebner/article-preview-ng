@@ -2,7 +2,14 @@
 
 .article-additional-info {
     padding: 1em;
+
+    &__subtitle {
+        margin-bottom: 1em;
+        font-weight: 700;
+    }
+
     &__list {
-        padding-left: 10px;
+        padding-left: 20px;
+        font-size: 0.9em;
     }
 }

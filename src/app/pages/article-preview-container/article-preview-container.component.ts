@@ -20,7 +20,6 @@ export class ArticlePreviewComponent implements OnInit{
     this.pageTitleService.setTitleAddOnString("Article preview");
   }
 
-
   ngOnInit(): void {
     this.selectedSize = this.article.sizes[0].value;
     this.filterImagesBySize();

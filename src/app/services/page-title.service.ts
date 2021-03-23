@@ -9,7 +9,7 @@ export class PageTitleService {
   constructor(private titleService: Title) {}
 
   setTitleAddOnString(addedString: any): void {
-    this.titleService.setTitle('SFM - ' + addedString);
+    this.titleService.setTitle('Store - ' + addedString);
   }
 
 

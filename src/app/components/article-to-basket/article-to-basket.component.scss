@@ -2,7 +2,10 @@
 
 .article-to-basket {
     padding: 1em;
+    display: flex;
+    justify-content: center;
     &__btn {
-        border: none;
+        font-size: 0.9em;
+        width: 250px;
     }
 }

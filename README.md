@@ -1,4 +1,4 @@
-SIMPLE FOOD MANAGER NG
+Article preview NG
 
 Angular version 10
 
